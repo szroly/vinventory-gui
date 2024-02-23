@@ -25,6 +25,24 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.layoutContainer {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+.sideNav {
+  width: 250px; 
+  height: 100%; /* Full height */
+  position: fixed; /* Make it fixed to the viewport */
+}
+.contentContainer {
+  /* margin-left: 250px;  */
+  width: calc(100% - 250px); /* Remaining width */
+  overflow-y: auto; /* Add scroll to content if needed */
+  background-color: #fff;
+  color: whitesmoke;
+  width: 100%;
+}
 
 @layer utilities {
   .text-balance {

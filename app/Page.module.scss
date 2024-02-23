@@ -1,0 +1,22 @@
+
+
+.firstContainer {
+  width: 450px;
+  height: 150px;
+  @media (max-width: 767px) {
+    width: 100% !important;
+  }
+}
+
+.secondContainer {
+  width: 450px;
+  height: 150px;
+  @media (max-width: 767px) {
+    width: 100% !important;
+    margin-top: 200px;
+  }
+  // margin-top: 60px !important;
+}
+
+
+  
